@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         self.initialConfiguration()
         self.fetchTvShows()
         
-        let documentDirectory = FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+        //\let documentDirectory = FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
         
     }
     
