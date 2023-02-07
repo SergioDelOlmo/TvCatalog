@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SQLite3
 
 //MARK: - Logic Variables
 var tvShows:[TvShow] = []
@@ -24,6 +25,9 @@ class ViewController: UIViewController {
         self.retrieveFavorites()
         self.initialConfiguration()
         self.fetchTvShows()
+        
+        let documentDirectory = FileManager.default.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
+        
     }
     
     

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t1r-fk-JHh">
-    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,19 +13,19 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TvCatalogTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="MNy-je-FA5">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="143"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
                                 <color key="backgroundColor" red="0.44705885649999999" green="0.2588235438" blue="0.96078431610000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="XvY-0H-TVX">
-                                <rect key="frame" x="0.0" y="143" width="390" height="618"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCr-pb-pbl">
-                                <rect key="frame" x="0.0" y="753" width="390" height="91"/>
+                                <rect key="frame" x="0.0" y="805" width="414" height="91"/>
                                 <color key="backgroundColor" red="0.39215683940000001" green="0.27843138579999999" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
@@ -61,18 +61,18 @@
             <objects>
                 <viewController id="EWF-6Y-onQ" customClass="DetailViewController" customModule="TvCatalogTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EjR-6d-NEg">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RiP-z6-3cq">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="91"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="88"/>
                                 <color key="backgroundColor" red="0.44705885649999999" green="0.2588235438" blue="0.96470588450000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="P2i-E6-fdS">
-                                <rect key="frame" x="64" y="131" width="262" height="248"/>
+                                <rect key="frame" x="64" y="127.99999999999997" width="286" height="268.33333333333326"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YB8-eP-qA6">
-                                <rect key="frame" x="40" y="403" width="310" height="128.33333333333337"/>
+                                <rect key="frame" x="40" y="420.33333333333331" width="334" height="138.99999999999994"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">You caught us!
 No show desciption available.</string>
@@ -81,13 +81,13 @@ No show desciption available.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBi-km-b2Y">
-                                <rect key="frame" x="174" y="555.33333333333337" width="42" height="21"/>
+                                <rect key="frame" x="186" y="583.33333333333337" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uEd-A1-TCU">
-                                <rect key="frame" x="40" y="584.33333333333337" width="310" height="103.66666666666663"/>
+                                <rect key="frame" x="40" y="612.33333333333337" width="334" height="112"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
@@ -95,7 +95,7 @@ No show desciption available.</string>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPX-br-289">
-                                <rect key="frame" x="139.33333333333334" y="696" width="111.33333333333334" height="35"/>
+                                <rect key="frame" x="151.66666666666666" y="732.33333333333337" width="110.99999999999997" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go to IMDB"/>
                                 <connections>
@@ -103,7 +103,7 @@ No show desciption available.</string>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LMQ-h1-mpM">
-                                <rect key="frame" x="0.0" y="761" width="390" height="83"/>
+                                <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <color key="backgroundColor" red="0.39215683940000001" green="0.28627452250000002" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                         </subviews>
@@ -167,7 +167,7 @@ No show desciption available.</string>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" largeTitles="YES" id="9l9-Sh-c7K">
-                        <rect key="frame" x="0.0" y="47" width="390" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </navigationBar>
@@ -185,19 +185,19 @@ No show desciption available.</string>
             <objects>
                 <viewController id="bjf-y7-Vdv" customClass="FavoriteViewController" customModule="TvCatalogTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Urf-gs-2Wl">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bET-A0-SL9">
-                                <rect key="frame" x="0.0" y="0.0" width="390" height="143"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="140"/>
                                 <color key="backgroundColor" red="0.39215683940000001" green="0.2823529541" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sqK-DT-mwn">
-                                <rect key="frame" x="0.0" y="761" width="390" height="83"/>
+                                <rect key="frame" x="0.0" y="813" width="414" height="83"/>
                                 <color key="backgroundColor" red="0.39215683940000001" green="0.28627452250000002" blue="0.7019608021" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ntz-ex-miB">
-                                <rect key="frame" x="0.0" y="143" width="390" height="618"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -255,7 +255,7 @@ No show desciption available.</string>
                     <tabBarItem key="tabBarItem" title="Favorites" image="heart" catalog="system" selectedImage="heart.fill" id="GY0-8H-S86"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" largeTitles="YES" id="8iB-02-8sC">
-                        <rect key="frame" x="0.0" y="47" width="390" height="96"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -269,7 +269,7 @@ No show desciption available.</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Cli-Yc-QJl"/>
+        <segue reference="0sY-DB-6tV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="heart" catalog="system" width="128" height="107"/>
